@@ -2,7 +2,7 @@
 
 ## Contents
 
-* Written material (this document and [this folder](./docs))
+* Written material (this document and [this folder](.//docs))
 * [Slides](../slides)
 * [Dart 101](./docs/01_dart/00_Embracing_Dart.md) 
 * [Flutter overview](./docs/02_Flutter/01_Flutter_core_concepts.md)
