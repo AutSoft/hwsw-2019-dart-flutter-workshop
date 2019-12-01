@@ -67,4 +67,4 @@ Map wife = {"name": "River", "age": 548};
 
  [You now have the idea of how Dart's type system works. Head over to variables and constants to continue the journey.](02_Variables_and_constants.md) 
 
- [If you had enough of the basics, this is the way to the door labeled Flutter.](..\02_Flutter\01_Flutter_core_concepts.md) 
+ [If you had enough of the basics, this is the way to the door labeled Flutter.](../02_Flutter/01_Flutter_core_concepts.md) 

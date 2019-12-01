@@ -10,5 +10,5 @@ For more detailed information and deeper descriptions, please visit the official
 
 [Next up, you'll learn about Dart's type system and type inference.](01_Types.md) 
 
- [If you'd rather jump right into Flutter, this is the way.](..\02_Flutter\01_Flutter_core_concepts.md) 
+ [If you'd rather jump right into Flutter, this is the way.](../02_Flutter/01_Flutter_core_concepts.md) 
 

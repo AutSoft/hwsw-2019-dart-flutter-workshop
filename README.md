@@ -2,13 +2,13 @@
 
 ## Contents
 
-* Written material (this document and [this folder](.\docs))
-* [Slides]("..\slides")
-* [Dart 101](docs\01_dart\00_Embracing_Dart.md) 
-* [Flutter overview](docs\02_Flutter\01_Flutter_core_concepts.md)
-* [Common problems and possible solutions in Flutter](docs\03_common_task_demos) 
-* [State handling and architecture theory in Flutter with demo projects](docs\04_state_management) 
-* [A complex example app - Stack Overflow Flutter Questions](projects\03_complex_app)
+* Written material (this document and [this folder](.//docs))
+* [Slides](..//slides)
+* [Dart 101](.//docs//01_dart//00_Embracing_Dart.md) 
+* [Flutter overview](.//docs//02_Flutter//01_Flutter_core_concepts.md)
+* [Common problems and possible solutions in Flutter](docs/03_common_task_demos/01_Common_task_demos.md)
+* [State handling and architecture theory in Flutter with demo projects](./docs/04_state_management) 
+* [A complex example app - Stack Overflow Flutter Questions](./projects/03_complex_app)
 
 ## Introduction
 

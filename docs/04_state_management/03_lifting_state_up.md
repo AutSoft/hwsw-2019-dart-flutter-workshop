@@ -141,7 +141,7 @@ Widget _buildTargetTemperature(ThermostatState appState) {
 }
 ```
 
-> See the full source code of the modified `MainPage` widget [here](.\projects\state_handling_demos\04_thermostat_lifting_state_up\lib\ui\main\main_page.dart).
+> See the full source code of the modified `MainPage` widget [here](./projects/state_handling_demos/04_thermostat_lifting_state_up/lib/ui/main/main_page.dart).
 >
 > While it was not really necessary to pass the state and the callback functions to the widget builder functions, this way they remain loosely coupled to their parent widget, so moving them around in the widget tree, or copying the builder logic somewhere else as a function becomes a breeze.
 
@@ -243,3 +243,6 @@ Now you can safely delete `_MainPageState`.
 All that you did was you moved state handling up one level on the widget tree. We started to move towards a form of separation of concerns. Now the app handles the state and the *screen* is only responsible for displaying it.
 
 If there would be another screen which needed the same - or a bit extended - state we could easily implement said screen essentially the same way as we did with `MainPage`.
+
+[There is a neat trick using `InheritedWidget` to solve this problem.](04_InheritedWidget.md) 
+

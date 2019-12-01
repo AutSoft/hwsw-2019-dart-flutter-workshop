@@ -155,6 +155,6 @@ class Student {
 
  [One last thing left, but it is important nontheless. You'll get the general idea behind asynchronous programming.](08_Async_summary.md) 
 
- [There really isn't much to skip now before Flutter, but you can skip if you want to.](..\02_Flutter\01_Flutter_core_concepts.md) 
+ [There really isn't much to skip now before Flutter, but you can skip if you want to.](../02_Flutter/01_Flutter_core_concepts.md) 
 
- [Also, you can jump right into the common task demo projects.](..\03_common_task_demos\01_Common_task_demos.md) 
+ [Also, you can jump right into the common task demo projects.](../03_common_task_demos/01_Common_task_demos.md) 

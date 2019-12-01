@@ -29,4 +29,4 @@ There are a number of out-of-the-box functions that you can use on collections t
 
  [A bit more interesting topic is around the corner: Functions!](06_Functions.md) 
 
- [Feeling like a pro already? Flutter is this way.](..\02_Flutter\01_Flutter_core_concepts.md) 
+ [Feeling like a pro already? Flutter is this way.](../02_Flutter/01_Flutter_core_concepts.md) 
