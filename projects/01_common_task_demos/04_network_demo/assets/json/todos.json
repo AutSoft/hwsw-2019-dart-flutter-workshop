@@ -1,0 +1,31 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Prepare HWSW workshop material",
+      "dueDate": "2019.11.26.",
+      "completed": true,
+      "tags": [
+        "dart", "flutter", "hwsw"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Order funny T-Shirts",
+      "dueDate": "2019.12.01.",
+      "completed": false,
+      "tags": [
+        "personal", "preparation", "conferences"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Get a cat maybe?",
+      "dueDate": "2020.01.07.",
+      "completed": false,
+      "tags": [
+        "personal"
+      ]
+    }
+  ]
+}

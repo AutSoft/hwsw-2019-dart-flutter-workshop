@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "owner": {
+        "reputation": 5788,
+        "user_id": 2529475,
+        "user_type": "registered",
+        "accept_rate": 90,
+        "profile_image": "https://i.stack.imgur.com/uvy4h.jpg?s=128&g=1",
+        "display_name": "Adam Cooper",
+        "link": "https://stackoverflow.com/users/2529475/adam-cooper"
+      },
+      "is_accepted": true,
+      "score": 1,
+      "last_activity_date": 1574631387,
+      "creation_date": 1574631387,
+      "answer_id": 59022667,
+      "question_id": 57808152,
+      "body": "<p>You don't need to use a flutter specific container, there is a <a href=\"https://github.com/marketplace/actions/flutter-action\" rel=\"nofollow noreferrer\">Flutter Action</a> available that runs on the default Windows, Linux and macOS containers. </p>\n\n<p>This means that building your flutter app is as simple as using the action (you will also need the Java action) and then running the flutter build command. The following example runs an aot build:</p>\n\n<pre><code>on: push\njobs: \n  build-and-test: \n    runs-on: ubuntu-latest\n    steps:\n    - uses: actions/checkout@v1 \n    # The flutter action needs java so include it\n    - uses: actions/setup-java@v1\n      with:\n        java-version: '12.x'\n    # Include the flutter action\n    - uses: subosito/flutter-action@v1\n      with:\n        channel: 'stable'  \n    # Get flutter packages\n    - run: flutter pub get\n    # Build :D \n    - run: flutter build aot\n</code></pre>\n\n<p>I wrote a <a href=\"https://admcpr.com//continuous-integration-for-flutter-with-github-actions/\" rel=\"nofollow noreferrer\">blog post</a> about building and testing flutter using actions if you'd like to learn more.</p>\n"
+    },
+    {
+      "owner": {
+        "reputation": 74,
+        "user_id": 3690032,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/72bb404145be0f6a96acc9b48c3f3da0?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Myracle",
+        "link": "https://stackoverflow.com/users/3690032/myracle"
+      },
+      "is_accepted": false,
+      "score": 1,
+      "last_activity_date": 1567912856,
+      "creation_date": 1567912856,
+      "answer_id": 57838959,
+      "question_id": 57808152,
+      "body": "<p>I let my one running without Docker. </p>\n\n<p>You could try to install flutter and run flutter pub get. I used in my example <a href=\"https://github.com/marketplace/actions/flutter-action\" rel=\"nofollow noreferrer\">subosito/flutter-action@v1</a></p>\n\n<pre><code>name: CI\n\non:\n  pull_request:\n    branches:\n      - development\n      - master\n\njobs:\n  test:\n    name: Flutter Tests\n    runs-on: ubuntu-latest\n\n    steps:\n      - uses: actions/checkout@v1\n      - uses: actions/setup-java@v1\n        with:\n          java-version: '12.x'\n      - uses: subosito/flutter-action@v1\n        with:\n          flutter-version: '1.7.8+hotfix.4'\n      - run: flutter doctor\n      - run: flutter pub get\n      - run: flutter test\n</code></pre>\n"
+    },
+    {
+      "owner": {
+        "reputation": 4401,
+        "user_id": 3231778,
+        "user_type": "registered",
+        "accept_rate": 100,
+        "profile_image": "https://www.gravatar.com/avatar/05b3786d38ece9ae5b494ce48cc33a6b?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Evandro Pomatti",
+        "link": "https://stackoverflow.com/users/3231778/evandro-pomatti"
+      },
+      "is_accepted": false,
+      "score": 0,
+      "last_activity_date": 1567826056,
+      "creation_date": 1567826056,
+      "answer_id": 57830377,
+      "question_id": 57808152,
+      "body": "<p>@Rezwan provided the link to the image I was looking for.</p>\n\n<p>I'm still not able to run it due to the following issues:</p>\n\n<p><a href=\"https://github.com/cirruslabs/docker-images-flutter/issues/27\" rel=\"nofollow noreferrer\">https://github.com/cirruslabs/docker-images-flutter/issues/27</a></p>\n\n<p><a href=\"https://stackoverflow.com/q/57830375/3231778\">GitHub Actions workflow error: Cannot create file, path = &#39;/github/home/.flutter&#39;</a></p>\n"
+    }
+  ],
+  "has_more": false,
+  "quota_max": 10000,
+  "quota_remaining": 9677
+}
