@@ -6,7 +6,7 @@ Enter BLoC.
 
 BLoC stands for **B**usiness **Lo**gic **C**omponents and the idea behind it is quite simple. A widget should emit events towards a BLoC, which will mutate the state of the app or other widgets it's responsible for. In other words, widgets emit events that - through BLoCs - cause other widgets to change.
 
-![BLoC](..\assets\BLoC.png)
+![BLoC](../assets/BLoC.png)
 
 This pattern, besides the impact on maintainability, is easy to implement manually, as doing so doesn't require any 3rd party libraries at all. Everything needed is given by Dart in the form of *streams*.
 
@@ -486,7 +486,7 @@ What if I told you that there's a library for all of this?
 
 It's called [Bloc](https://pub.dev/packages/bloc).
 
-There is not much left. You can check out the [complex project](..\05_complex_project\01_Complex_project.md) to get an overall idea on how complex can .
+There is not much left. You can check out the [complex project](../05_complex_project/01_Complex_project.md) to get an overall idea on how complex can .
 
-[Also, here's a link to the main page just for you.](..\..\README.md) 
+[Also, here's a link to the main page just for you.](../../README.md) 
 

@@ -141,7 +141,7 @@ Widget _buildTargetTemperature(ThermostatState appState) {
 }
 ```
 
-> See the full source code of the modified `MainPage` widget [here](.\projects\state_handling_demos\04_thermostat_lifting_state_up\lib\ui\main\main_page.dart).
+> See the full source code of the modified `MainPage` widget [here](./projects/state_handling_demos/04_thermostat_lifting_state_up/lib/ui/main/main_page.dart).
 >
 > While it was not really necessary to pass the state and the callback functions to the widget builder functions, this way they remain loosely coupled to their parent widget, so moving them around in the widget tree, or copying the builder logic somewhere else as a function becomes a breeze.
 

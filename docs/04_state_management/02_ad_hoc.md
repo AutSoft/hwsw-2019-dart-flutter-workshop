@@ -1,6 +1,6 @@
 # Ad hoc architecture
 
-[Thermostat app](.\projects\state_handling_demos\01_thermostat_base) has a considerable amount of state variables even on the scale of a simple app. In `_MainPageState` there's the current temperature, the target temperature, and the status color. There is also a `Timer` for simulation purposes. When adding more and more complexity to a screen, the number of variables and objects to maintain can get out of hand quickly.
+[Thermostat app](./projects/state_handling_demos/01_thermostat_base) has a considerable amount of state variables even on the scale of a simple app. In `_MainPageState` there's the current temperature, the target temperature, and the status color. There is also a `Timer` for simulation purposes. When adding more and more complexity to a screen, the number of variables and objects to maintain can get out of hand quickly.
 
 For example, add a text representation of what's happening in the heating system and display this text over the existing colored representation:
 

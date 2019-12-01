@@ -80,7 +80,7 @@ class MainPage extends StatelessWidget {
 }
 ```
 
-Before you get to work some magic with our `InheritedWidget`, you need to do some housekeeping around the widgets of `MainPage`. Lift the widget building functions out of `MainPage` to their respective files as classes that extend `StatelessWidget`. The widget building code pieces go into the newly created widget  classes' `build` methods, where you can access the widget's `context`.  You can find these classes [here](.\projects\state_handling_demos\05_thermostat_with_inheritedwidget).
+Before you get to work some magic with our `InheritedWidget`, you need to do some housekeeping around the widgets of `MainPage`. Lift the widget building functions out of `MainPage` to their respective files as classes that extend `StatelessWidget`. The widget building code pieces go into the newly created widget  classes' `build` methods, where you can access the widget's `context`.  You can find these classes [here](./projects/state_handling_demos/05_thermostat_with_inheritedwidget).
 
 After extracting the widget builder parts of our code, `MainPage`'s `_buildBody` method became much less cluttered. As a bonus, `MainPage` doesn't know anything about the app state, which is all right, because it really doesn't need anything from it.
 

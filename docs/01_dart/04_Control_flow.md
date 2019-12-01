@@ -6,4 +6,4 @@ Dart even has the ternary operator `bool_expression ? ifTrue : ifFalse`.
 
  [That was short, wasn't it? Up next, collections.](05_Collections.md) 
 
- [You're half-way through to Flutter. You can skip the remaining Dart stuff, if you wanted to.](..\02_Flutter\01_Flutter_core_concepts.md) 
+ [You're half-way through to Flutter. You can skip the remaining Dart stuff, if you wanted to.](../02_Flutter/01_Flutter_core_concepts.md) 

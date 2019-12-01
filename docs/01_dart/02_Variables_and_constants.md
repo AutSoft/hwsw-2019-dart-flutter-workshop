@@ -47,4 +47,4 @@ A Dart library is a set of .dart files bundled together. Every app is also a lib
 
  [There have already been some examples with Strings in this section. Find out what else you can do with them.](03_Strings.md) 
 
- [Or just go straight to Flutter.](..\02_Flutter\01_Flutter_core_concepts.md) 
+ [Or just go straight to Flutter.](../02_Flutter/01_Flutter_core_concepts.md) 

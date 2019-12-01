@@ -26,4 +26,4 @@ The app implements the following features:
   * BLoC
   * UI
 
-[Go back to the main page.](..\..\README.md) 
+[Go back to the main page.](../../README.md) 

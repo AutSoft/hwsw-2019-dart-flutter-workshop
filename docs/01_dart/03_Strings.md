@@ -46,4 +46,4 @@ Note that using this syntax will not implicitly result in a multi-line `String`.
 
  [String handling is easy and fun in Dart. Control flow statements are even easier to learn.](04_Control_flow.md) 
 
- [Or, you know, you can just skip to Flutter.](..\02_Flutter\01_Flutter_core_concepts.md) 
+ [Or, you know, you can just skip to Flutter.](../02_Flutter/01_Flutter_core_concepts.md) 

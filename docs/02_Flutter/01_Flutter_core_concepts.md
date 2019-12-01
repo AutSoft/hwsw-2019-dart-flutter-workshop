@@ -10,7 +10,7 @@ In Flutter, everything revolves around widgets. Your app is a widget, that holds
 
 In an app, widgets form a *widget tree*. The widget tree is a hierarchy of widgets which defines the state and the displayed UI of the app.
 
-![widget-tree](..\assets\widget-tree.png)
+![widget-tree](../assets/widget-tree.png)
 
 ## The world is a big Canvas
 
