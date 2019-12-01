@@ -243,3 +243,6 @@ Now you can safely delete `_MainPageState`.
 All that you did was you moved state handling up one level on the widget tree. We started to move towards a form of separation of concerns. Now the app handles the state and the *screen* is only responsible for displaying it.
 
 If there would be another screen which needed the same - or a bit extended - state we could easily implement said screen essentially the same way as we did with `MainPage`.
+
+[There is a neat trick using `InheritedWidget` to solve this problem.](04_InheritedWidget.md) 
+

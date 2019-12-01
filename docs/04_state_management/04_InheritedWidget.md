@@ -105,4 +105,5 @@ Thermostat is starting to look like a maintainable application with actual separ
 
 There are some issues with this approach though. With the UI getting more complex, essentially you have to design `InheritedWidget`s' places in the widget tree. This is fine, but you have to deal with it. On the other hand, actions from the UI - like button clicks - are handled by callbacks that you pass down from the main app state. This is far from ideal as this approach doesn't scale well.
 
-Solving these issues require involving something called the BLoC pattern.
+[Solving these issues require involving something called the BLoC pattern.](05_Manual_bloc.md) 
+
