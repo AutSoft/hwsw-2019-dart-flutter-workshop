@@ -26,4 +26,4 @@ Read more about the ` BuildContext` class in the [official documentation](https:
 
 You're all set to bravely delve into some [demo projects]() showcasing common mobile app development tasks solved in Flutter.
 
-If you're brave enough you can skip the demo projects and get the [state handling](../04_state_management/01_app_architecture_and_state_mananagement) show on  [01_Common_task_demos.md](../03_common_task_demos/01_Common_task_demos.md) the road, or take the shortest path to the complex 
+If you're brave enough you can skip the demo projects and get the [state handling](../04_state_management/01_app_architecture_and_state_mananagement) show on the road, or take the shortest path to the [complex app](../05_complex_project/01_Complex_project.md) .
