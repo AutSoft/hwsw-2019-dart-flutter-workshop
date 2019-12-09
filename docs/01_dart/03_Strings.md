@@ -42,7 +42,7 @@ final wibblyWobbly = '"People assume that time\'s a strict'
 wibbly wobbly, timey wimey stuff."''';
 ```
 
-Note that using this syntax will not implicitly result in a multi-line `String`. You still have to insert a newline character if you're not using the multi-line `String` syntax.
+Note that using this syntax will not implicitly result in a multi-line `String`. You still have to insert newline characters where needed if you're not using the multi-line `String` syntax.
 
  [String handling is easy and fun in Dart. Control flow statements are even easier to learn.](04_Control_flow.md) 
 
