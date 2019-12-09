@@ -4,7 +4,7 @@ Much like other modern programming languages (for example [Kotlin](https://try.k
 
 Dart also has most of the features you would expect if you're coming from Kotlin, Swift - or even JavaSrcript for that matter -, so if you have a past with those languages, you can catch on quickly.
 
-This Dart overview aims at giving you the basic concepts of the language. It covers most language features used in the Flutter example projects // TODO link.
+This Dart overview aims at giving you the basic concepts of the language. It covers most language features used in the [Flutter example projects](../../projects).
 
 For more detailed information and deeper descriptions, please visit the official [tour of the Dart language](https://dart.dev/guides/language/language-tour).
 
