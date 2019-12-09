@@ -2,7 +2,7 @@
 
 There are a few ways to declare and initialize variables in Dart. Keep in mind that *every* uninitialized variable's value implicitly defaults to `null`, primitive types included.
 
-You can declare a variable with it's type explicitly and without initializing it.
+You can declare a variable with its type explicitly and without initializing it.
 
 ```dart
 List<int> forTheAges; // The type is List<int>, the value is null
@@ -37,7 +37,7 @@ As you can see in the example above, an object marked with `const`  has to be tr
 
 ## Visibility
 
-Dart doesn't have visibility modifier keywords. Everything is public by default, and you can make a variable, method or class *library* private. This is done with starting the name of said components with an underscore (`_`).
+Dart doesn't have visibility modifier keywords. Everything is public by default, and you can make a variable, method or class *library* private. You can make them private by starting their name with an underscore (`_`).
 
 ```dart
 final _secretKey = "123ABC"; // _secretKey is a library private constant
