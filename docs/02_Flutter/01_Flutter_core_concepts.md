@@ -22,4 +22,4 @@ A widget's state is the data it holds and what it displays.
 
 As a result of the widget-based framework, managing the state of the widgets is one of the main concerns developers have to face while working with Flutter. You can see for yourself if you check out the [widget state handling section](..\04_state_management).
 
-###  [You're almost done! One more of this and you'll be totally ready to take on the remaining pars](02_Basic_building_blocks.md)
+[You're almost done! One more of this and you'll be totally ready to take on the remaining parts](02_Basic_building_blocks.md)
