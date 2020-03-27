@@ -82,7 +82,7 @@ class Person {
   
   Person(this.firstName, this.lastName);
     
-  Person.comedian("Jack", "Black");
+  Person.comedian(): this("Jack", "Black");
 }
 ```
 
