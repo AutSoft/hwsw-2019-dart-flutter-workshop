@@ -16,7 +16,7 @@ Mobile developers have been waiting for a true, all-around cross-platform mobile
 
 It seems like Flutter is starting to pave the way for cross-platform Android and iOS development.
 
-This workshop material is intended for both beginners and advances developers to get a brief overview of the Dart language, and the basic capabilities of Flutter.
+This workshop material is intended for both beginners and experienced developers to get a brief overview of the Dart language, and the basic capabilities of Flutter.
 
 > ## The history of cross-platform development
 >
