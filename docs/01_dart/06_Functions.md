@@ -95,12 +95,12 @@ String fullName(String first, [String last = "Doe", String title = ""]) {...}
 You can declare anonymous functions by omitting the return type and name from the normal function syntax. Both block body and expression body declarations are allowed.
 
 ```dart
-// Anonmous function with block body
+// Anonymous function with block body
 LongRunningTask().start(callback: (statusCode) {
   print(statusCode);
 });
 
-// Anonmous function with expression body
+// Anonymous function with expression body
 LongRunningTask().start(callback: (statusCode) => print(statusCode));
 ```
 
