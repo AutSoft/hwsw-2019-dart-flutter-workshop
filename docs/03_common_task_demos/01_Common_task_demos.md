@@ -9,7 +9,7 @@ The following small projects demonstrate some common tasks you will most certain
 * [JSON parsing](../../projects/01_common_task_demos/05_json_parsing_demo)
 * [Network API call](../../projects/01_common_task_demos/06_network_demo)
 * Database handling
-  * For an example on high-level database handling in Flutter, see the *database* package in the [complex app example project](./projects/complex_app/so_flutter_questions/lib/database).
+  * For an example on high-level database handling in Flutter, see the *database* package in the [complex app example project](../../projects/03_complex_app/so_flutter_questions/lib/database).
 
-From here, you can continue your journey to [state management](../04_state_management/01_app_architecture_and_state_mananagement) or towards the 01_Common_task_demos.md) complex app?
+From here, you can continue your journey to [state management](../04_state_management/01_app_architecture_and_state_mananagement) or towards the [complex app example](../../projects/03_complex_app/so_flutter_questions/).
 
